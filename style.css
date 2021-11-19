@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    height: auto;
+}
+
+input {
+    border: none;
+    font-size: 15px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 0px;
+    padding: 10px;
+    width: 65%;
+}
+
+button {
+    border: none;
+    font-size: 15px;
+    background-color: teal;
+    color: white;
+    border-radius: 0px;
+    padding: 10px;
+    width: 25%;
+}
+
+.form-part {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.list-item {
+    padding: 0px 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+h4,
+p {
+    margin: 5px;
+}
+
+p {
+    padding: 5px;
+    font-size: 12px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.taskName {
+    width: 300px;
+    overflow: auto;
+    text-align: left;
+}
+
+.close {
+    background-color: red;
+    padding: 3px 5px;
+    border-radius: 30px;
+    color: white;
+}
